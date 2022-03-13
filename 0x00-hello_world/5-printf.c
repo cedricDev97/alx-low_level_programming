@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * function main who start the program
+ * main - Entry point
  * printf function who display the content of programm
- * function Return who return 0 or 1
- **/
+ * Return: return 1 after program execution
+ */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
