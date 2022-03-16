@@ -2,6 +2,7 @@
 /**
  * _isalpha - check for uppercase letters
  *
+ * @c: the int to print
  * Return: 1 if c is uppercase
  * 0 if c is anything.
  */
