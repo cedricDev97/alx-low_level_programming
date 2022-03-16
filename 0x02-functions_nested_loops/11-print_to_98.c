@@ -27,7 +27,7 @@ printf("%d, ", j);
 }
 }
 }
-else if(n > 98)
+else if (n > 98)
 {
 int j;
 for (j = n; j > 97; j--)
