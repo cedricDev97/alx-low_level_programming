@@ -10,27 +10,25 @@
 void print_square(int size)
 {
 
-	int ligne;
-	int col;
+int i;
+int j;
 
-	if (size > 0)
-	{
-	
-		for (ligne = 0; ligne < size; ligne++)
-		{
-			for (col = 0; col < size; col++)
-			{
-			
-				_putchar ('#');
-			}
-			_putchar ('\n');
-		}
-	
-	}
-	else
-	{
-	
-		_putchar ('\n');
-	}
+if (size > 0)
+{
+for (i = 0; i < size; i++)
+{
+for (j = 0; j < size; j++)
+{		
+_putchar (35);
+}
+_putchar ('\n');
+}
+
+}
+
+else
+{
+_putchar ('\n');
+}
 
 }
