@@ -21,16 +21,16 @@ void print_square(int size)
 			for (col = 0; col < size; col++)
 			{
 			
-				_putch('#');
+				_putch ('#');
 			}
-			_putchar('\n');
+			_putchar ('\n');
 		}
 	
 	}
 	else
 	{
 	
-		_putchar('\n');
+		_putchar ('\n');
 	}
 
 }
