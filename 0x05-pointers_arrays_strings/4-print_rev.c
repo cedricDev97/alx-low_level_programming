@@ -21,7 +21,7 @@ last = length++;
 
 
 last = length - 1;
-for (last; last >= 0; last--)
+for (; last >= 0; last--)
 {
 
 	_putchar(s[last]);
