@@ -15,7 +15,7 @@ int numbers[] = {52, 51, 48, 55, 49};
 while (*(s + count) != '\0')
 {
 for (i = 0; i < 5; i++)
-}
+{
 if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
 {
 *(s + count) = numbers[i];
