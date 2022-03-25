@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * leet - encodes a string into 1337
  * @s: input string.
@@ -7,23 +8,22 @@
 
 char *leet(char *s)
 {
-int i, count;
-char leetLetters[] = "aAeEoOtTlL";
-char leetNums[] = "4433007711";
-i = 0;
-while (s[i] != '\0')
+int count = 0, i;
+int lower_case[] = {97, 101, 111, 116, 108};
+int upper_caser[] = {65, 69, 79, 84, 76};
+int numbers[] = {52, 51, 48, 55, 49};
+
+while (*(s + count) != '\0')
 {
-count = 0;
-while (count < 10)
+for (i = 0; i < 5; i++)
 {
-if (lettLetters[count] == s[i])
+if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
 {
-s[i] = leetNums[count];
+*(s + count) = numbers[i];
+break;
+}
 }
 count++;
 }
-i++;
-}
 return (s);
-
 }
