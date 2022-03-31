@@ -23,7 +23,7 @@ return (-1);
 }
 
 /**
- * sqrt_recursion now
+ * sqrt_recursion - evaluate sqrt
  * @n: integer
  * Return: sqrt_recursion
  */
