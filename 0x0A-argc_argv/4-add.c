@@ -22,6 +22,7 @@ if (!isdigit(str[i])) /* verifier si il n'ya pas de chiffre*/
 {
 return (0);
 }
+
 i++;
 }
 return (1);
@@ -61,7 +62,7 @@ return (1);
 i++;
 }
 
-printf("%d\n", sum); /*print sum*/
+printf("%d\n", sum);/*print sum*/
 
 return (0);
 }
