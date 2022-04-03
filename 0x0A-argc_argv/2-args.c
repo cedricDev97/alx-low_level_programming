@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-int (int argc, char *argv[])
+int mai(int argc, char *argv[])
 {
 
 int i = 0;
