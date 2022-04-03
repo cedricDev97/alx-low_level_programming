@@ -11,10 +11,16 @@
 
 int (int argc, char *argv[])
 {
-int i;
-for (i = 0; i < arg; i++)
+
+int i = 0;
+
+if (argc > 0)
 {
-printf("%s\n", argv[i]);	
+while (i < argc)
+{
+printf("%s\n", argv[i]);
+i++;
+}
 }
 return (0);
 }

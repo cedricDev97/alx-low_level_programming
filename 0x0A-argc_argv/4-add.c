@@ -42,7 +42,7 @@ int i;
 int str_to_int;
 int sum = 0;
 
-i = 0;
+i = 1;
 while (i < argc)
 {
 if (check_num(argv[i]))
