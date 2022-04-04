@@ -28,6 +28,7 @@ if (total <= 0)
 printf("0\n");
 return (0);
 }
+
 while (coins[i] != '\0')
 {
 if (total >= coins[i])
@@ -36,8 +37,11 @@ nb_coin = (total/coins[i]);
 monnaie += nb_coin;
 total -= nb_coin * coins[i];
 }
+
 i++;
+
 }
+
 printf("%d\n", monnaie);
 return (0);
 }
