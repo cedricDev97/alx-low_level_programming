@@ -11,17 +11,22 @@ int main(int argc, char *argv[])
 {
 /* declaration des variables*/
 int total, nb_coin, monnaie, i;
-coins[] = {25, 10, 5, 2, 1};
+int coins[] = {25, 10, 5, 2, 1};
+
+total = nb_coin = monnaie = i = 0;
+
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
+
 total = atoi(argv[1]);
 
 if (total <= 0)
 {
 printf("0\n");
+return (0);
 }
 while (coins[i] != '\0')
 {
