@@ -47,7 +47,7 @@ return (dest);
 
 char *_strdup(char *str)
 {
-char dst;
+char *dst;
 unsigned int size;
 
 if (str == 0)
