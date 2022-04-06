@@ -18,7 +18,7 @@ while (a < ac)
 b = 0;
 while (av[a][b] != '\0')
 {
-count ++;
+count++;
 b++;
 }
 a++;
