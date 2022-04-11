@@ -1,7 +1,7 @@
-#ifndef SUM
+#ifndef SUMM
 
-#define SUM
+#define SUMM
 
-#define SUM(x,y) ((x) + (y))
+#define SUM(x, y) ((x) + (y))
 
-#endif /*SUM(x,y)*/
+#endif /*SUM*/
