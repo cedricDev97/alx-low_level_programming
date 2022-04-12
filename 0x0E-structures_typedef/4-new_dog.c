@@ -18,7 +18,7 @@ new_dog = malloc(sizeof(dog_t));
 if (new_dog == NULL)
 	return (NULL);
 len_name = _strlen(name);
-new_dog->name = malloc(sizeof(dog_t));
+new_dog->name = malloc(sizeof(char) * len_name + 1);
 if (new_dog->name == NULL)
 {
 free(new_dog);
@@ -28,7 +28,7 @@ return (NULL);
 new_dog->name = _strcpy(new_dog->name, name);
 len_owner = _strlen(owner);
 new_dog->owner = malloc(sizeof(char) * len_owner + 1);
-if (new_dog->owner ==NULL)
+if (new_dog->owner == NULL)
 {
 free(new_dog->name);
 free(new_dog);
