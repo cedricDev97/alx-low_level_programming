@@ -1,4 +1,4 @@
-#include "variadiic_functions.h"
+#include "variadic_functions.h"
 
 /**
  * print_all - prints anything.
@@ -32,7 +32,7 @@ switch (format[i])
 	case 'f':
 		printf("%s%f", separator, va_arg(args, double));
 		break;
-		
+
 	case 's':
 		s = va_arg(args, char *);
 		if (s == NULL)
