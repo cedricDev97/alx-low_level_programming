@@ -20,6 +20,8 @@ curr = *head;
 
 hnode = curr->n;
 
+h = curr->next;
+
 free(curr);
 
 *head = h;
