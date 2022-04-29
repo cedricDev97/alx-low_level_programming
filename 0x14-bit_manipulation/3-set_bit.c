@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * set_bit - set to 1.
  * @n: pointer of an unsigned long int.
  * @index: index of the bit.
  *
- * Return 1 for success, -1 for failure .
+ * Return 1 for success, -1 for failure.
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
